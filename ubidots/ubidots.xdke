@@ -1,0 +1,84 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "README.md": {
+        "previousModTime": 1469712924889,
+        "modified": 1469712924889,
+        "seen": true,
+        "name": "README.md"
+      },
+      "icon.png": {
+        "previousModTime": 1469712924891,
+        "modified": 1469712924891,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1469718539141,
+        "modified": 1469718539141,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1469712924892,
+        "modified": 1469712924892,
+        "seen": true,
+        "name": "package.json"
+      },
+      "ubidots.xdk": {
+        "previousModTime": 1469713260542,
+        "modified": 1469713260542,
+        "seen": true,
+        "name": "ubidots.xdk"
+      },
+      "ubidots.xdke": {
+        "previousModTime": 1469718444723,
+        "modified": 1469718444723,
+        "seen": true,
+        "name": "ubidots.xdke"
+      },
+      "xdk-publish-meta-data.json": {
+        "previousModTime": 1469712925347,
+        "modified": 1469712925347,
+        "seen": true,
+        "name": "xdk-publish-meta-data.json"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1469712925111,
+        "modified": 1469712925111,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "README.md": {
+        "previousModTime": 1469718569281
+      },
+      "icon.png": {
+        "previousModTime": 1469718569281
+      },
+      "main.js": {
+        "previousModTime": 1469718569281
+      },
+      "package.json": {
+        "previousModTime": 1469718569281
+      },
+      "xdk-publish-meta-data.json": {
+        "previousModTime": 1469718569281
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1469718569281
+      }
+    }
+  }
+}

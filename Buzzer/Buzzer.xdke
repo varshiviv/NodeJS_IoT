@@ -1,0 +1,69 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "Buzzer.xdk": {
+        "previousModTime": 1469730656043,
+        "modified": 1469730656043,
+        "seen": true,
+        "name": "Buzzer.xdk"
+      },
+      "Buzzer.xdke": {
+        "previousModTime": 1469779994479,
+        "modified": 1469779994479,
+        "seen": true,
+        "name": "Buzzer.xdke"
+      },
+      "README.md": {
+        "previousModTime": 1469729288210,
+        "modified": 1469729288210,
+        "seen": true,
+        "name": "README.md"
+      },
+      "icon.png": {
+        "previousModTime": 1469729288214,
+        "modified": 1469729288214,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1469780020407,
+        "modified": 1469780020407,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1469729288212,
+        "modified": 1469729288212,
+        "seen": true,
+        "name": "package.json"
+      },
+      "xdk-publish-meta-data.json": {
+        "previousModTime": 1469729288854,
+        "modified": 1469729288854,
+        "seen": true,
+        "name": "xdk-publish-meta-data.json"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1469729288486,
+        "modified": 1469729288486,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1469780022008
+      }
+    }
+  }
+}

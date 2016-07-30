@@ -1,0 +1,69 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "Analog.xdk": {
+        "previousModTime": 1469891115474,
+        "modified": 1469891115474,
+        "seen": true,
+        "name": "Analog.xdk"
+      },
+      "Analog.xdke": {
+        "previousModTime": 1469893096213,
+        "modified": 1469893096213,
+        "seen": true,
+        "name": "Analog.xdke"
+      },
+      "README.md": {
+        "previousModTime": 1469891083254,
+        "modified": 1469891083254,
+        "seen": true,
+        "name": "README.md"
+      },
+      "icon.png": {
+        "previousModTime": 1469891083254,
+        "modified": 1469891083254,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1469893422421,
+        "modified": 1469893422421,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1469891083254,
+        "modified": 1469891083254,
+        "seen": true,
+        "name": "package.json"
+      },
+      "xdk-publish-meta-data.json": {
+        "previousModTime": 1469891083687,
+        "modified": 1469891083687,
+        "seen": true,
+        "name": "xdk-publish-meta-data.json"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1469891083489,
+        "modified": 1469891083489,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1469893424971
+      }
+    }
+  }
+}
