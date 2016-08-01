@@ -2,50 +2,90 @@
 /*jshint unused:true */
 
 /*
-A simple node.js application intended to read data from Analog pins on the Intel based development boards such as the Intel(R) Galileo and Edison with Arduino breakout board.
-
-MRAA - Low Level Skeleton Library for Communication on GNU/Linux platforms
-Library in C/C++ to interface with Galileo & other Intel platforms, in a structured and sane API with port nanmes/numbering that match boards & with bindings to javascript & python.
-
-Steps for installing MRAA & UPM Library on Intel IoT Platform with IoTDevKit Linux* image
-Using a ssh client: 
-1. echo "src maa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/intel-iotdk.conf
-2. opkg update
-3. opkg upgrade
-
-Article: https://software.intel.com/en-us/html5/articles/intel-xdk-iot-edition-nodejs-templates
-*/
+ * Author: Vivek Sharanappa
+ */
 
 var mraa = require('mraa'); //require mraa
 console.log('MRAA Version: ' + mraa.getVersion()); //write the mraa version to the console
 
-var light;
-var temperature;
-var sound;
+var lcd = require('jsupm_i2clcd');
+var display = new lcd.Jhd1313m1(0, 0x3E, 0x62);
+var sleep = require('sleep');
+var B = 3975;
 
-periodicActivity(); //call the periodicActivity function
+//lightActivity(); //call the lightActivity function
+//tempActivity();
+//soundActivity();
 
-function periodicActivity() //
+setInterval(lightActivity,1000);
+setInterval(tempActivity,1000);
+setInterval(soundActivity,1000);
+
+function lightActivity() //
 {
+    var red = 200;
+    var green = 192;
+    var blue = 203;
+    var analogValue = 0;
+    display.setColor(red, green, blue);
     var analogPin0 = new mraa.Aio(0); //setup access analog input Analog pin #0 (A0)
-    var analogValue = analogPin0.read(); //read the value of the analog pin
+    analogValue = analogPin0.read(); //read the value of the analog pin
     console.log('PIN A0(Light): ' + analogValue); //write the value of the analog pin to the console
-    light = analogValue;
+    display.setCursor(0,0);
+    display.clear();
+    display.write('Light lux is:');
+    display.setCursor(1,0);
+    display.write('' + analogValue);
+    sleep.sleep(2);
+}
+
+function tempActivity() //
+{
+    var red = 200;
+    var green = 192;
+    var blue = 203;
+    var analogValueC = 0;
+    var analogValueF = 0;
+
+    display.setColor(red, green, blue);
 
     var analogPin1 = new mraa.Aio(1); //setup access analog input Analog pin #1 (A1)
-    analogValue = analogPin1.read(); //read the value of the analog pin
-    console.log('PIN A1(Temperature): ' + analogValue); //write the value of the analog pin to the console
-    temperature = analogValue;
-    
-    var analogPin2 = new mraa.Aio(2); //setup access analog input Analog pin #2 (A2)
-    analogValue = analogPin2.read(); //read the value of the analog pin
-    console.log('PIN A2(Sound): ' + analogValue); //write the value of the analog pin to the console
-    sound = analogValue;
+    var a = analogPin1.read(); //read the value of the analog pin
+    var resistance = (1023 - a) * 10000 / a; //get the resistance of the sensor;
+    analogValueC = (1 / (Math.log(resistance / 10000) / B + 1 / 298.15) - 273.15).toFixed(2);
+    analogValueF = ((analogValueC * (9 / 5)) + 32).toFixed(2);
+    console.log('PIN A1(Temperature C): ' + analogValueC); //write the value of the analog pin to the console
+    console.log('PIN A1(Temperature F): ' + analogValueF); //write the value of the analog pin to the console
+    display.setCursor(0,0);
+    display.clear();
+    display.write('Temperature:');
+    display.setCursor(1,0);
+    display.write('C ' + analogValueC + ' F ' + analogValueF);
+    sleep.sleep(2);
 
+}
+
+function soundActivity() //
+{
+    var red = 200;
+    var green = 192;
+    var blue = 203;
+
+    display.setColor(red, green, blue);
+    var analogPin2 = new mraa.Aio(2); //setup access analog input Analog pin #2 (A2)
+    var analogValue = analogPin2.read(); //read the value of the analog pin
+    console.log('PIN A2(Sound): ' + analogValue); //write the value of the analog pin to the console
+    display.setCursor(0,0);
+    display.clear();
+    display.write('Noise Level:');
+    display.setCursor(1,0);
+    display.write(''+analogValue);
+    sleep.sleep(2);
+
+}
     //var analogPin2 = new mraa.Aio(3); //setup access analog input Analog pin #3 (A3)
     //var analogValue = analogPin3.read(); //read the value of the analog pin
     //console.log('PIN A3: ' + analogValue); //write the value of the analog pin to the console
     //<NewVariable> = analogValue;
 
-   //setTimeout(periodicActivity,5000); //call the indicated function after 1 second (1000 milliseconds)
-}
+

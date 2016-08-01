@@ -18,8 +18,8 @@
         "name": "Analog.xdk"
       },
       "Analog.xdke": {
-        "previousModTime": 1469893096213,
-        "modified": 1469893096213,
+        "previousModTime": 1470034044644,
+        "modified": 1470034044644,
         "seen": true,
         "name": "Analog.xdke"
       },
@@ -36,33 +36,39 @@
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1469893422421,
-        "modified": 1469893422421,
+        "previousModTime": 1470036285755,
+        "modified": 1470036285755,
         "seen": true,
         "name": "main.js"
       },
       "package.json": {
-        "previousModTime": 1469891083254,
-        "modified": 1469891083254,
+        "previousModTime": 1470033292186,
+        "modified": 1470033292186,
         "seen": true,
         "name": "package.json"
       },
       "xdk-publish-meta-data.json": {
-        "previousModTime": 1469891083687,
-        "modified": 1469891083687,
+        "previousModTime": 1470033292389,
+        "modified": 1470033292389,
         "seen": true,
         "name": "xdk-publish-meta-data.json"
       },
       "xdk/project-info.json": {
-        "previousModTime": 1469891083489,
-        "modified": 1469891083489,
+        "previousModTime": 1470033292647,
+        "modified": 1470033292647,
         "seen": true,
         "name": "xdk/project-info.json"
+      },
+      ".gitignore": {
+        "previousModTime": 1470033283557,
+        "modified": 1470033283557,
+        "seen": true,
+        "name": ".gitignore"
       }
     },
     "boardFileStatus": {
       "main.js": {
-        "previousModTime": 1469893424971
+        "previousModTime": 1470036294353
       }
     }
   }
