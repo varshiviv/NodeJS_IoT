@@ -1,0 +1,62 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "icon.png": {
+        "previousModTime": 1470293206162,
+        "modified": 1470293206162,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1470316310123,
+        "modified": 1470316310123,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1470293206163,
+        "modified": 1470293206163,
+        "seen": true,
+        "name": "package.json"
+      },
+      "README.md": {
+        "previousModTime": 1470293206163,
+        "modified": 1470293206163,
+        "seen": true,
+        "name": "README.md"
+      },
+      "Relay.xdk": {
+        "previousModTime": 1470293206661,
+        "modified": 1470293206661,
+        "seen": true,
+        "name": "Relay.xdk"
+      },
+      "Relay.xdke": {
+        "previousModTime": 1470316001775,
+        "modified": 1470316001775,
+        "seen": true,
+        "name": "Relay.xdke"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1470293206570,
+        "modified": 1470293206570,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1470316312490
+      }
+    }
+  }
+}

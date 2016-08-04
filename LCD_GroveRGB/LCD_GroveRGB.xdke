@@ -18,8 +18,8 @@
         "name": "LCD_GroveRGB.xdk"
       },
       "LCD_GroveRGB.xdke": {
-        "previousModTime": 1469731417909,
-        "modified": 1469731417909,
+        "previousModTime": 1469898761780,
+        "modified": 1469898761780,
         "seen": true,
         "name": "LCD_GroveRGB.xdke"
       },
@@ -42,8 +42,8 @@
         "name": "lcd.js"
       },
       "main.js": {
-        "previousModTime": 1469712517731,
-        "modified": 1469712517731,
+        "previousModTime": 1469898880650,
+        "modified": 1469898880650,
         "seen": true,
         "name": "main.js"
       },
@@ -66,6 +66,10 @@
         "name": "xdk/project-info.json"
       }
     },
-    "boardFileStatus": {}
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1469898884628
+      }
+    }
   }
 }

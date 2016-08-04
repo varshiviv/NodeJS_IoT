@@ -1,0 +1,74 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "ButtonPress.xdk": {
+        "previousModTime": 1470295520984,
+        "modified": 1470295520984,
+        "seen": true,
+        "name": "ButtonPress.xdk"
+      },
+      "ButtonPress.xdke": {
+        "previousModTime": 1470314296623,
+        "modified": 1470314296623,
+        "seen": true,
+        "name": "ButtonPress.xdke"
+      },
+      "icon.png": {
+        "previousModTime": 1470295520403,
+        "modified": 1470295520403,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1470295562348,
+        "modified": 1470295562348,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1470295520403,
+        "modified": 1470295520403,
+        "seen": true,
+        "name": "package.json"
+      },
+      "README.md": {
+        "previousModTime": 1470295520407,
+        "modified": 1470295520407,
+        "seen": true,
+        "name": "README.md"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1470295520869,
+        "modified": 1470295520869,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "icon.png": {
+        "previousModTime": 1470314407774
+      },
+      "main.js": {
+        "previousModTime": 1470314407774
+      },
+      "package.json": {
+        "previousModTime": 1470314407774
+      },
+      "README.md": {
+        "previousModTime": 1470314407774
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1470314407774
+      }
+    }
+  }
+}
