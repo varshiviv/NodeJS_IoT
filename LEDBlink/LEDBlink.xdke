@@ -18,8 +18,8 @@
         "name": "LEDBlink.xdk"
       },
       "LEDBlink.xdke": {
-        "previousModTime": 1469505522923,
-        "modified": 1469505522923,
+        "previousModTime": 1470290670244,
+        "modified": 1470290670244,
         "seen": true,
         "name": "LEDBlink.xdke"
       },
@@ -36,8 +36,8 @@
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1469505488027,
-        "modified": 1469505488027,
+        "previousModTime": 1470290667777,
+        "modified": 1470290667777,
         "seen": true,
         "name": "main.js"
       },
@@ -60,25 +60,6 @@
         "name": "xdk/project-info.json"
       }
     },
-    "boardFileStatus": {
-      "README.md": {
-        "previousModTime": 1469505524086
-      },
-      "icon.png": {
-        "previousModTime": 1469505524086
-      },
-      "main.js": {
-        "previousModTime": 1469505524086
-      },
-      "package.json": {
-        "previousModTime": 1469505524086
-      },
-      "xdk-publish-meta-data.json": {
-        "previousModTime": 1469505524086
-      },
-      "xdk/project-info.json": {
-        "previousModTime": 1469505524086
-      }
-    }
+    "boardFileStatus": {}
   }
 }
