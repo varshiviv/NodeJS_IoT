@@ -2,6 +2,10 @@ Analog Pin Read App
 ============================
 A simple node.js application intended to read data from Analog pins on the Intel based development boards such as the Intel(R) Galileo and Edison with Arduino breakout board.
 
+Author: Vivek Sharanappa
+============================
+This Node.js program read's Temperature(A0), Light(A1) & Sound(A2) and upload the data to ubidots and make it available public at https://freeboard.io/board/VQ42Ro
+
 Intel(R) XDK 
 -------------------------------------------
 This template is part of the Intel(R) XDK IoT Edition. 
