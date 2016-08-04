@@ -24,8 +24,8 @@
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1469718539141,
-        "modified": 1469718539141,
+        "previousModTime": 1470058833153,
+        "modified": 1470058833153,
         "seen": true,
         "name": "main.js"
       },
@@ -42,8 +42,8 @@
         "name": "ubidots.xdk"
       },
       "ubidots.xdke": {
-        "previousModTime": 1469718444723,
-        "modified": 1469718444723,
+        "previousModTime": 1470058812779,
+        "modified": 1470058812779,
         "seen": true,
         "name": "ubidots.xdke"
       },
@@ -61,23 +61,8 @@
       }
     },
     "boardFileStatus": {
-      "README.md": {
-        "previousModTime": 1469718569281
-      },
-      "icon.png": {
-        "previousModTime": 1469718569281
-      },
       "main.js": {
-        "previousModTime": 1469718569281
-      },
-      "package.json": {
-        "previousModTime": 1469718569281
-      },
-      "xdk-publish-meta-data.json": {
-        "previousModTime": 1469718569281
-      },
-      "xdk/project-info.json": {
-        "previousModTime": 1469718569281
+        "previousModTime": 1470058835659
       }
     }
   }

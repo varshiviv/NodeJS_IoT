@@ -11,73 +11,73 @@
   },
   "iot-tab": {
     "fileStatus": {
-      "Monitor.xdk": {
-        "previousModTime": 1469707819462,
-        "modified": 1469707819462,
-        "seen": true,
-        "name": "Monitor.xdk"
-      },
-      "Monitor.xdke": {
-        "previousModTime": 1470286788638,
-        "modified": 1470286788638,
-        "seen": true,
-        "name": "Monitor.xdke"
-      },
       "README.md": {
-        "previousModTime": 1469707321900,
-        "modified": 1469707321900,
+        "previousModTime": 1470062213184,
+        "modified": 1470062213184,
         "seen": true,
         "name": "README.md"
       },
+      "SoundSensor.xdk": {
+        "previousModTime": 1470062255777,
+        "modified": 1470062255777,
+        "seen": true,
+        "name": "SoundSensor.xdk"
+      },
+      "SoundSensor.xdke": {
+        "previousModTime": 1470062255796,
+        "modified": 1470062255796,
+        "seen": true,
+        "name": "SoundSensor.xdke"
+      },
       "icon.png": {
-        "previousModTime": 1469707321904,
-        "modified": 1469707321904,
+        "previousModTime": 1470062213184,
+        "modified": 1470062213184,
         "seen": true,
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1469721530793,
-        "modified": 1469721530793,
+        "previousModTime": 1470062253048,
+        "modified": 1470062253048,
         "seen": true,
         "name": "main.js"
       },
       "package.json": {
-        "previousModTime": 1469707321903,
-        "modified": 1469707321903,
+        "previousModTime": 1470062213184,
+        "modified": 1470062213184,
         "seen": true,
         "name": "package.json"
       },
       "xdk-publish-meta-data.json": {
-        "previousModTime": 1469707322623,
-        "modified": 1469707322623,
+        "previousModTime": 1470062222073,
+        "modified": 1470062222073,
         "seen": true,
         "name": "xdk-publish-meta-data.json"
       },
       "xdk/project-info.json": {
-        "previousModTime": 1469707322201,
-        "modified": 1469707322201,
+        "previousModTime": 1470062213500,
+        "modified": 1470062213500,
         "seen": true,
         "name": "xdk/project-info.json"
       }
     },
     "boardFileStatus": {
       "README.md": {
-        "previousModTime": 1470286790786
+        "previousModTime": 1470062256262
       },
       "icon.png": {
-        "previousModTime": 1470286790786
+        "previousModTime": 1470062256262
       },
       "main.js": {
-        "previousModTime": 1470286790786
+        "previousModTime": 1470062256262
       },
       "package.json": {
-        "previousModTime": 1470286790786
+        "previousModTime": 1470062256262
       },
       "xdk-publish-meta-data.json": {
-        "previousModTime": 1470286790786
+        "previousModTime": 1470062256262
       },
       "xdk/project-info.json": {
-        "previousModTime": 1470286790786
+        "previousModTime": 1470062256262
       }
     }
   }
