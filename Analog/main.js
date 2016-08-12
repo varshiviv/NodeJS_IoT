@@ -21,15 +21,15 @@ var ledState = false; //Boolean to hold the state of Led
 
 //cloud data
 var ubidots = require('ubidots');// installed explicitly using npm install ubidots to get client api
-var client = ubidots.createClient('f66998a21eee346d081536bacf1db8948ac691a9');//my ubidots api-key
+var client = ubidots.createClient('');//my ubidots api-key
 
 /*
 var ubidots = require('ubidots');
-var client = ubidots.createClient('f66998a21eee346d081536bacf1db8948ac691a9');
+var client = ubidots.createClient('');
 
 client.auth(function () {
-  var ds = this.getDatasource('579a03127625425afe46ce48');
-  var v = this.getVariable('579ef9917625420307438521');
+  var ds = this.getDatasource('');
+  var v = this.getVariable('');
   v.saveValue(random(40,500));
   console.log('Saved Data!');
 });*/
@@ -62,7 +62,7 @@ function lightActivity() //Light Sensor
     //upload data to ubidots
     client.auth(function () {
         //var ds = this.getDatasource('579a03127625425afe46ce48'); //my intel edison source id
-        var v = this.getVariable('579ef9917625420307438521'); //my variable
+        var v = this.getVariable(''); //my variable
         v.saveValue(analogValue);
         console.log('Saved Light Sensor Data on ubidots!');
     });
@@ -93,8 +93,8 @@ function tempActivity() //Temperature Sensor
     //display.write('C ' + analogValueC + ' F ' + analogValueF);
     //upload data to ubidots
     client.auth(function () {
-        //var ds = this.getDatasource('579a03127625425afe46ce48'); //my intel edison source id
-        var v = this.getVariable('579ef9a8762542046706ef4b'); //my variable
+        //var ds = this.getDatasource(''); //my intel edison source id
+        var v = this.getVariable(''); //my variable
         v.saveValue(analogValueC);
         console.log('Saved Temperature Data on ubidots!');
     });
@@ -129,8 +129,8 @@ function soundActivity() //Sound Sensor
     //display.write(''+analogValue);
     //upload data to ubidots
     client.auth(function () {
-        //var ds = this.getDatasource('579a03127625425afe46ce48'); //my intel edison source id
-        var v = this.getVariable('579ef9bd762542051d7cc6d7'); //my variable
+        //var ds = this.getDatasource(''); //my intel edison source id
+        var v = this.getVariable(''); //my variable
         v.saveValue(analogValue);
         console.log('Saved Sound Sensor Data on ubidots!');
     });
