@@ -42,12 +42,12 @@ function lightActivity() //Light Sensor
     //display.setCursor(1,0);
     //display.write('' + analogValue);
     //upload data to ubidots
-    /*client.auth(function () {
+    client.auth(function () {
         //var ds = this.getDatasource('579a03127625425afe46ce48'); //my intel edison source id
         var v = this.getVariable('579ef9917625420307438521'); //my variable
         v.saveValue(analogValue);
         console.log('Saved Light Sensor Data on ubidots!');
-    });*/
+    });
 }
 
 /*function random(low, high) {
